@@ -438,3 +438,40 @@ footer ul a:hover {
         grid-template-columns: 1fr 1fr;
     }
 }
+
+/* =================== MEDIA QUERIES (SMALL DEVICES ================= */
+    /* ===== GENERAL STYLE ===== */
+
+@media screen and (max-width: 600px) {
+    section {
+        margin-top: 2rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .featured {
+        margin-top: 6rem;
+    }
+
+    .featured_container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .posts_container {
+        grid-template-columns: 1fr;
+    }
+
+    .category_buttons-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer_container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        align-items: center;
+        gap: 2rem;
+    }
+}
