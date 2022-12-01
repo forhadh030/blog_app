@@ -361,6 +361,26 @@ footer ul a:hover {
     color: var(--color-white)
 }
 
+/* =================== SINGLE POST ================= */
+.singlepost {
+    margin: 6rem 0 2rem;
+}
+
+.singlepost_container {
+    width: var(--container-width-md);
+    background: var(--color-gray-900);
+    padding: 1rem 2rem 3rem;
+}
+
+.post_thumbnail {
+    margin-top: 1.5rem 0 1rem;
+}
+
+.singlepost_container p {
+    margin-top: 1rem;
+    line-height: 1.7;
+}
+
 /* =================== MEDIA QUERIES (MEDIUM DEVICES ================= */
     /* ===== GENERAL STYLE ===== */
 @media screen and (max-width: 1024px) {
@@ -530,5 +550,11 @@ footer ul a:hover {
     /* =================== BLOG ================= */
     .search_bar-container {
         width: var(--container-width-md)
+    }
+
+    /* =================== SINGLE POST ================= */
+    .singlepost {
+        background: transparent;
+        padding: 0;
     }
 }
