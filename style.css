@@ -738,7 +738,7 @@ input, textarea, select {
         gap: 2rem;
     }
 
-    /* =================== BLOG ================= */
+    /* =================== BLOG ================== */
     .search_bar-container {
         width: var(--container-width-md)
     }
@@ -755,6 +755,6 @@ input, textarea, select {
     }
 
     /* =================== DASHBOARD ================= */
-    
+
 
 }
